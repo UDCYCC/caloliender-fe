@@ -16,6 +16,13 @@
   }
 }
 
+@font-face {
+  font-family: 'omyu_pretty';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2304-01@1.0/omyu_pretty.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+
 body {
   color: rgb(var(--foreground-rgb));
   background: linear-gradient(
@@ -24,4 +31,32 @@ body {
       rgb(var(--background-end-rgb))
     )
     rgb(var(--background-start-rgb));
+}
+span {
+  padding: 10px;
+}
+
+p {
+  text-align: center;
+}
+.header {
+  text-align:center;
+  font-size: 5vw;
+  font-family: 'omyu_pretty';
+}
+
+.today {
+  text-align: center;
+  font-family: 'omyu_pretty';
+  font-size: 3vw;
+}
+
+.modal {
+  position: relative;
+  left: 10%;
+  font-size: 2vw;
+  background-color: darkgray;
+  padding: 25px;
+  width: 80%;
+  border-radius: 30px;
 }
