@@ -35,9 +35,9 @@ const main = () => {
                         <p>오늘 소모한 칼로리</p>
                         
                             <span>
-                                <CircularProgress value={40} size='12vw' color='green.400'>
+                                <CircularProgress value={80} size='12vw' color='green.400'>
                                     <CircularProgressLabel>
-                                        40%
+                                        80%
                                         <br />
                                         탄수화물
                                     </CircularProgressLabel>
